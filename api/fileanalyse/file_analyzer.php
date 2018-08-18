@@ -7,7 +7,7 @@ if (isset($_FILES['upfile'])) {
     // Check if files size is under 10MB
     if ($file['size'] > 10 ** 7) {
         $result = [
-          'error' => 'Sorry, file size cannot exceed1 0 megabytes :('
+          'error' => 'Sorry, file size cannot exceed 10 megabytes :('
         ];
     } else {
         // Make an array with needed info
